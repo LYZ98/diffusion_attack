@@ -1,7 +1,7 @@
 # Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models
 The codes includes two parts: model_train and model attack.
 
-In model_train, you could run the file main.py to train your model. Here we provide 3 types of models: st-gcn, a3t-gcn, st-gcn.
+In model_train, you could run the file "main.py" to train your model. Here we provide 3 types of models: st-gcn, a3t-gcn, st-gcn.
 (For t-gcn and a3t-gcn, the codes are based on codes in https://github.com/lehaifeng/T-GCN.
  For st-gcn, the codes are based on codes in https://github.com/VeritasYin/STGCN_IJCAI-18).
 You could also train correspoding models with Dropout, Dropnode and Dropedge.
