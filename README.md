@@ -1,4 +1,6 @@
 # Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models
+Author: Lyuyi Zhu (3170103586@zju.edu.cn), Kairui Feng (kairuif@princeton.edu), Ziyuan Pu, Wei Ma (wei.w.ma@polyu.edu.hk).
+
 The codes includes two parts: model_train and model attack.
 
 In model_train, you could run the file "main.py" to train your model. Here we provide 3 types of models: st-gcn, t-gcn, a3t-gcn.
