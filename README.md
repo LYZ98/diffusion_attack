@@ -9,7 +9,7 @@ In model_train, you could run the file "main.py" to train your model. Here we pr
 You could also train correspoding models with Dropout, Dropnode and Dropedge.
 The model information is generated in file "model_train/out".
  
-In model_attack, you could run "attack_algorithm_comparision.py" to attack the models with different algorithms in our paper. Here we provide trained models in our Google drive.
+In model_attack, you could run "attack_algorithm_comparision.py" to attack the models with different algorithms in our paper. Here we provide trained models in our Google drive https://drive.google.com/drive/folders/1sVoQxd7yH0PVR-g1Ni1HMM2vREjtp1l8?usp=sharing.
 If you want to attack new models trained by yourself, you could train them in "model_train/main.py" file, then get results in "model_train/out" file. You could copy this "out" file from "model_train/out" to "model_attack/out", then run file "attack_algorithm_comparision.py". The file name should be the same if you want to restore models sucessfully.
 
 The codes of SPSA algorithm are based on https://github.com/TheBugger228/SPSA.
