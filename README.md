@@ -1,5 +1,6 @@
 # Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models
-Author: Lyuyi Zhu (3170103586@zju.edu.cn), Kairui Feng (kairuif@princeton.edu), Ziyuan Pu, Wei Ma (wei.w.ma@polyu.edu.hk).
+Our paper is available at http://arxiv.org/abs/2104.09369.
+Author: Lyuyi Zhu (3170103586@zju.edu.cn), Kairui Feng (kairuif@princeton.edu), Ziyuan Pu (ziyuan.pu@monash.edu), Wei Ma (wei.w.ma@polyu.edu.hk).
 
 The codes includes two parts: model_train and model attack.
 
