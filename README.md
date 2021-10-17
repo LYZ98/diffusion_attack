@@ -7,7 +7,7 @@ The code includes two parts: model_train and model_attack.
 In model_train, you could run the file "main.py" to train your model. Here we provide 3 types of models: st-gcn, t-gcn, a3t-gcn.
 (For t-gcn and a3t-gcn, the code is based on codes in https://github.com/lehaifeng/T-GCN.
  For st-gcn, the code is based on codes in https://github.com/VeritasYin/STGCN_IJCAI-18).
-You could also train correspoding models with Dropout, Dropnode and Dropedge.
+You can also train correspoding models with Dropout, Dropnode and Dropedge.
 The model information is generated in folder "model_train/out".
  
 In model_attack, you could run "attack_algorithm_comparision.py" to attack the models with different algorithms in our paper. Here we provide trained models in our Google drive https://drive.google.com/drive/folders/1sVoQxd7yH0PVR-g1Ni1HMM2vREjtp1l8?usp=sharing.
