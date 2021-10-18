@@ -298,7 +298,7 @@ for epoch in range(training_epoch):
           'test_rmse:{:.4}'.format(rmse),
           'test_acc:{:.4}'.format(acc))
 
-    if (epoch % 301 == 0):
+    if (epoch % 300 == 0):
         saver.save(sess, path+'/model_100/%s_%s_pre_%r_epoch%r_drop%s_%r' % (data_name, model_name, pre_len,
                                                                              epoch, dropmode, k), global_step=epoch)
         mytxt = open('%s_%s_pre%r_epoch%r_drop%s_%r.txt' % (data_name, model_name, pre_len,
