@@ -11,7 +11,16 @@ In model_attack, you could run "attack_algorithm_comparision.py" to attack the m
 If you want to attack new models which are trained by yourself, you could train them in "model_train/main.py" file, then get results in "model_train/out" folder. You could copy this "out" folder from "model_train/out" to "model_attack/out", then run file "attack_algorithm_comparision.py". The file name should be the same if you want to restore models sucessfully.
 
 The code of SPSA algorithm is based on https://github.com/TheBugger228/SPSA.
- 
- 
-Our paper is available at http://arxiv.org/abs/2104.09369.
-Author: Lyuyi Zhu (3170103586@zju.edu.cn), Kairui Feng (kairuif@princeton.edu), Ziyuan Pu (ziyuan.pu@monash.edu), Wei Ma (wei.w.ma@polyu.edu.hk).
+
+<p>If you use datasets from our work, please cite：</p>
+<pre><code>@misc{diffusion attack,
+  doi = {10.48550/ARXIV.2104.09369},
+  url = {https://arxiv.org/abs/2104.09369},
+  author = {Zhu, Lyuyi and Feng, Kairui and Pu, Ziyuan and Ma, Wei},
+  title = {Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models},
+  publisher = {arXiv},
+  year = {2021},
+}
+</code></pre>
+
+
