@@ -13,14 +13,17 @@ In model_attack, you could run "attack_algorithm_comparision.py" to attack the m
 If you want to attack new models which are trained by yourself, you could train them in "model_train/main.py" file, then get results in the "model_train/out" folder. You could copy this "out" folder from "model_train/out" to "model_attack/out", then run file "attack_algorithm_comparision.py". Note the file name should be the same.
 
 <p>If you use datasets or codes from our work, please cite：</p>
-<pre><code>@misc{diffusion attack,
-  doi = {10.48550/ARXIV.2104.09369},
-  url = {https://arxiv.org/abs/2104.09369},
-  author = {Zhu, Lyuyi and Feng, Kairui and Pu, Ziyuan and Ma, Wei},
-  title = {Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models},
-  publisher = {arXiv},
-  year = {2021}
-}
+<pre><code>@ARTICLE{10167720,
+  author={Zhu, Lyuyi and Feng, Kairui and Pu, Ziyuan and Ma, Wei},
+  journal={IEEE Internet of Things Journal}, 
+  title={Adversarial Diffusion Attacks on Graph-Based Traffic Prediction Models}, 
+  year={2024},
+  volume={11},
+  number={1},
+  pages={1481-1495},
+  doi={10.1109/JIOT.2023.3290401}
+ }
+
 </code></pre>
 
 
