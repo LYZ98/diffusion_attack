@@ -1,16 +1,9 @@
 # Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models
-The code includes two parts: model_train and model_attack.
+The code consists of two parts: model_train and model_attack. In the model_train section, you can execute the "main.py" file to train your model. We offer three types of models: st-gcn, t-gcn, and a3t-gcn. For t-gcn and a3t-gcn, the code is based on the code available at https://github.com/lehaifeng/T-GCN. As for st-gcn, the code is based on the code provided at https://github.com/VeritasYin/STGCN_IJCAI-18. Additionally, you have the option to train corresponding models with Dropout, Dropnode, and Dropedge. The model information will be generated in the "model_train/out" folder.
 
-In model_train, you could run the file "main.py" to train your model. Here we provide 3 types of models: st-gcn, t-gcn, a3t-gcn.
-(For t-gcn and a3t-gcn, the code is based on codes in https://github.com/lehaifeng/T-GCN.
- For st-gcn, the code is based on codes in https://github.com/VeritasYin/STGCN_IJCAI-18).
-You can also train correspoding models with Dropout, Dropnode and Dropedge.
-The model information is generated in the folder "model_train/out".
+The SPSA algorithm code is derived from https://github.com/TheBugger228/SPSA. In the model_attack section, you can run the "attack_algorithm_comparision.py" file to launch attacks on the models using different algorithms mentioned in our paper. We have shared the trained models on our Google Drive at https://drive.google.com/drive/folders/1sVoQxd7yH0PVR-g1Ni1HMM2vREjtp1l8?usp=sharing. If you wish to attack new models that you have trained yourself, you can train them using the "model_train/main.py" file and obtain the results in the "model_train/out" folder. Simply copy the "out" folder from "model_train/out" to "model_attack/out" and ensure that the file names match. Finally, execute the "attack_algorithm_comparision.py" file.
 
-The code of SPSA algorithm is based on https://github.com/TheBugger228/SPSA.
- 
-In model_attack, you could run "attack_algorithm_comparision.py" to attack the models with different algorithms in our paper. Here we provide trained models in our Google drive https://drive.google.com/drive/folders/1sVoQxd7yH0PVR-g1Ni1HMM2vREjtp1l8?usp=sharing.
-If you want to attack new models which are trained by yourself, you could train them in "model_train/main.py" file, then get results in the "model_train/out" folder. You could copy this "out" folder from "model_train/out" to "model_attack/out", then run file "attack_algorithm_comparision.py". Note the file name should be the same.
+Please cite our work if you utilize datasets or codes from our research:
 
 <p>If you use datasets or codes from our work, please cite：</p>
 <pre><code>@ARTICLE{10167720,
