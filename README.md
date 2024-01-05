@@ -3,9 +3,8 @@ The code consists of two parts: model_train and model_attack. In the model_train
 
 The SPSA algorithm code is derived from https://github.com/TheBugger228/SPSA. In the model_attack section, you can run the "attack_algorithm_comparision.py" file to launch attacks on the models using different algorithms mentioned in our paper. We have shared the trained models on our Google Drive at https://drive.google.com/drive/folders/1sVoQxd7yH0PVR-g1Ni1HMM2vREjtp1l8?usp=sharing. If you wish to attack new models that you have trained yourself, you can train them using the "model_train/main.py" file and obtain the results in the "model_train/out" folder. Simply copy the "out" folder from "model_train/out" to "model_attack/out" and ensure that the file names match. Finally, execute the "attack_algorithm_comparision.py" file.
 
-Please cite our work if you utilize datasets or codes from our research:
 
-<p>If you use datasets or codes from our work, please cite：</p>
+<p>Please cite our work if you utilize datasets or codes from our research：</p>
 <pre><code>@ARTICLE{10167720,
   author={Zhu, Lyuyi and Feng, Kairui and Pu, Ziyuan and Ma, Wei},
   journal={IEEE Internet of Things Journal}, 
